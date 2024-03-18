@@ -8,3 +8,4 @@ function d () {
 	return console.log(p);
 }
 d();
+var x = [5,7,8,9,6];
