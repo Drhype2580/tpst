@@ -1,11 +1,7 @@
-var p = 2;
-while(p<65536) {
-	  p = p**2;
-	  console.log(p);
-}
-function d () {
-	p = p*p;
-	return console.log(p);
-}
-d();
-var x = [5,7,8,9,6];
+let today = new Date();
+let year = today.getFullYear();
+let month = today.getMonth() + 1;
+let day = today.getDate();
+
+console.log('Date format: DD-MM-YYYY');
+console.log(`Today's date is ${day}-${month}-${year}`);
